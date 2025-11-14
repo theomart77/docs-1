@@ -1,4 +1,6 @@
----
+struct MyProvider<P: Provider + Clone> {
+    inner: P,
+}---
 description: Abstract provider implementations to work seamlessly across different transport layers and connection types
 ---
 
